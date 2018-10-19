@@ -1,0 +1,7 @@
+d:\arons\Developpement\C#\dotNet5778_02_6274\CardGame\bin\Debug\CardGame.exe.config
+d:\arons\Developpement\C#\dotNet5778_02_6274\CardGame\bin\Debug\CardGame.exe
+d:\arons\Developpement\C#\dotNet5778_02_6274\CardGame\bin\Debug\CardGame.pdb
+d:\arons\Developpement\C#\dotNet5778_02_6274\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
+d:\arons\Developpement\C#\dotNet5778_02_6274\CardGame\obj\Debug\CardGame.csproj.CoreCompileInputs.cache
+d:\arons\Developpement\C#\dotNet5778_02_6274\CardGame\obj\Debug\CardGame.exe
+d:\arons\Developpement\C#\dotNet5778_02_6274\CardGame\obj\Debug\CardGame.pdb

@@ -1,0 +1,42 @@
+﻿<UserControl x:Name="userControl"
+             x:Class="dotNetWPF_03_6274_2436.PrinterUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:local="clr-namespace:dotNetWPF_03_6274_2436"
+             mc:Ignorable="d"
+             d:DesignHeight="329" d:DesignWidth="259" Width="Auto" Height="Auto" BorderThickness="1"
+             Foreground="#FF080505">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Stretch" Width="Auto" Height="Auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Name="InkLabel" Content=" Ink :" />
+            <Label Name="PageLabel" Content="Pages :" Grid.Row="1" Grid.Column="0" />
+            <ProgressBar Name="InkCountProgressBar" Grid.Row="0" Grid.Column="1" Value="0"
+                         ToolTip="{Binding Value, ElementName=InkCountProgressBar, StringFormat=\{0:P\}}"
+                         ValueChanged="InkCountProgressBar_ValueChanged" />
+            <Slider Name="PageCountSlider" Grid.Row="1" Grid.Column="1" Value="0"
+                    Maximum="400"
+                    ValueChanged="PageCountSlider_ValueChanged" />
+        </Grid>
+        <Image Grid.Row="0" Source="Images/Printer.jpg" />
+        <Label Content="Printer " x:Name="PrinterNameLabel" HorizontalAlignment="Center" Grid.Row="1"
+               VerticalAlignment="Center" Foreground="RoyalBlue" FontSize="16" MouseEnter="PrinterNameLabel_MouseEnter"
+               MouseLeave="PrinterNameLabel_MouseLeave" />
+
+    </Grid>
+</UserControl>

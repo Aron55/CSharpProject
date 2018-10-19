@@ -1,0 +1,7 @@
+D:\arons\OneDrive\Developpement\dotNet5778_01b_6274\dotNet5778_01b_6274\bin\Debug\dotNet5778_01b_6274.exe.config
+D:\arons\OneDrive\Developpement\dotNet5778_01b_6274\dotNet5778_01b_6274\bin\Debug\dotNet5778_01b_6274.exe
+D:\arons\OneDrive\Developpement\dotNet5778_01b_6274\dotNet5778_01b_6274\bin\Debug\dotNet5778_01b_6274.pdb
+D:\arons\OneDrive\Developpement\dotNet5778_01b_6274\dotNet5778_01b_6274\obj\Debug\dotNet5778_01b_6274.csprojResolveAssemblyReference.cache
+D:\arons\OneDrive\Developpement\dotNet5778_01b_6274\dotNet5778_01b_6274\obj\Debug\dotNet5778_01b_6274.csproj.CoreCompileInputs.cache
+D:\arons\OneDrive\Developpement\dotNet5778_01b_6274\dotNet5778_01b_6274\obj\Debug\dotNet5778_01b_6274.exe
+D:\arons\OneDrive\Developpement\dotNet5778_01b_6274\dotNet5778_01b_6274\obj\Debug\dotNet5778_01b_6274.pdb
